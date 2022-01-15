@@ -14,6 +14,7 @@ p{
     display: flex;
     justify-content: space-between;
     padding-left: 75px;
+    margin-top: 30px;
 }
 .company-name h1{
     font-family: 'Poppins', sans-serif;
@@ -21,7 +22,6 @@ p{
 }
 .navbar{
     display: flex;
-    margin-top: 35px;
     padding-left: 30px;
     margin-right: 20px;
 }
