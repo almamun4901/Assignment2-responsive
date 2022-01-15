@@ -1,6 +1,5 @@
-*{
-    margin-left: 10px;
-    margin-right: 10px;
+body{
+    background-color: rgb(245, 241, 241);
 }
 .header-container{
     display: flex;
@@ -13,7 +12,7 @@
 .navbar{
     display: flex;
     margin-top: 35px;
-    padding-left: 20px;
+    padding-left: 30px;
     margin-right: 20px;
 }
 .navbar-items a, i{
@@ -22,4 +21,83 @@
     text-decoration: none;
     font-weight: 600;
     color: black;
+}
+.start{
+    display: flex;
+}
+.start-flex{
+    width: 50%;
+}
+.start-details{
+    width: 70%;
+    text-align: justify;
+}
+.start-details h1{
+    font-size: 50px;
+}
+.fa-arrow-right{
+    padding-left: 0%;
+}
+.start-flex img{
+    background-image: url(images/Circle\ design.svg);
+}
+.logos{
+    margin-left: 100px;
+    margin-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.logos img{
+    height: 150px;
+    width: 150px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-row-gap: 50px;
+}
+.item{
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+}
+.fa-star{
+    font-size: 15px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+/* footer style */
+footer{
+    text-align: center;
+    background-color: rgb(13, 13, 71);
+    color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.icon a{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(124, 114, 179);
 }
