@@ -1,0 +1,25 @@
+*{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.company-name h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+}
+.navbar{
+    display: flex;
+    margin-top: 35px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.navbar-items a, i{
+    padding-left: 20px;
+    font-family: 'poppins';
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
