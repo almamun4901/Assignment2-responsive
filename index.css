@@ -55,6 +55,7 @@ p{
 .button{
     width: 160px;
     height: 50px;
+    margin-top: 20px;
 }
 #button1{
     background-color: #E02C6D;
