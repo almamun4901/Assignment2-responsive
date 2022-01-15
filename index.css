@@ -89,6 +89,7 @@ hr{
 .container{
     width: 80%;
     padding-left: 235px;
+    padding-bottom: 35px;
 }
 .collection-heading{
     font-weight: 800;
