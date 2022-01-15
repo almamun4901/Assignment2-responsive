@@ -1,4 +1,7 @@
 /* common styles */
+*{
+    margin: 0%;
+}
 body{
     background-color: rgb(245, 241, 241);
 }
@@ -67,7 +70,7 @@ p{
 }
 /* horizontal lines */
 hr{
-    margin-top: 50px;
+    margin-top: 20px;
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
@@ -76,6 +79,7 @@ hr{
 .logos{
     margin-left: 100px;
     margin-right: 10px;
+    padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -88,7 +92,7 @@ hr{
 
 .container{
     width: 80%;
-    padding-left: 235px;
+    padding-left: 250px;
     padding-bottom: 35px;
 }
 .collection-heading{
@@ -102,6 +106,7 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     grid-row-gap: 50px;
+    padding-top: 25px;
 }
 .item{
     background-color: white;
@@ -170,4 +175,35 @@ footer{
     color: white;
     border-radius: 50%;
     background-color: rgb(124, 114, 179);
+}
+
+/* media Queries */
+
+/* mobile device */
+@media only screen and (max-width:688px) {
+    .start{
+        flex-direction: column;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+        grid-row-gap: 50px;
+    }
+}
+/* tablet device */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .start{
+        display: block;
+        justify-content: center;
+    }
+    .container{
+        padding-left: 50px;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        grid-row-gap: 50px;
+    }
 }
